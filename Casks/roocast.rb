@@ -12,7 +12,7 @@ cask "roocast" do
     regex(/Roocast[._-]v?(\d+(?:\.\d+)+)\.dmg/i)
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Roocast.app"
 
