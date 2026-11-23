@@ -1,6 +1,6 @@
 cask "roocast" do
-  version "0.11.1"
-  sha256 "f57a4839ed06afabb86d54efe295b337b2ea3d220d6c16dedc5f1bdcc55e1b0b"
+  version "0.11.2"
+  sha256 "ff19bab80c72b774249b74f97c3f069e68047ffbbc3fe37690f3ddf76fcc8e3d"
 
   # Public object URL (Cloudflare R2). Do not point homepage/livecheck at a product site.
   url "https://pub-64ebbf28a53c4384b65e97db467d3eea.r2.dev/Roocast-#{version}.dmg"
